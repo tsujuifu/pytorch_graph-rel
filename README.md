@@ -1,4 +1,4 @@
-# pytorch_graph-rel
+# [ACL'19 (long)] GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction
 A **PyTorch** implementation of GraphRel
 
 [Project]() | [Paper]() | [Poster]()
@@ -10,7 +10,7 @@ A **PyTorch** implementation of GraphRel
 ## Usage
 
 ## Resources
-+ [NYT Dataset](https://github.com/xiangrongzeng/copy_re)
++ NYT Dataset
 + WebNLG Dataset
 
 ## Citation
