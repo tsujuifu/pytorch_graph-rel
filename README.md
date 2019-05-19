@@ -6,8 +6,13 @@ A **PyTorch** implementation of GraphRel
 ## Overview
 
 ## Requirements
+This code is implemented under **Python3** and [PyTorch](https://pytorch.org). <br>
+Following libraries are also required:
++ [PyTorch](https://pytorch.org) >= 0.4
++ [spaCy](https://spacy.io)
 
 ## Usage
+We use [spaCy](https://spacy.io/) as **pre-trained word embedding** and **dependency parser**.
 
 ## Resources
 + NYT Dataset
