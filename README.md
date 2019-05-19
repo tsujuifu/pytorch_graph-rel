@@ -10,7 +10,8 @@ A **PyTorch** implementation of GraphRel
 ## Usage
 
 ## Resources
-+ [Dataset](https://github.com/xiangrongzeng/copy_re)
++ [NYT Dataset](https://github.com/xiangrongzeng/copy_re)
++ WebNLG Dataset
 
 ## Citation
 ```
