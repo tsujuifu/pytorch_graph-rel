@@ -1,7 +1,7 @@
 # pytorch_graph-rel
 A **PyTorch** implementation of GraphRel
 
-[Project] | [Paper] | [Poster]
+[Project]() | [Paper]() | [Poster]()
 
 ## Overview
 
@@ -21,3 +21,6 @@ A **PyTorch** implementation of GraphRel
   year = {2019} 
 }
 ```
+
+## Acknowledgement
++ [copy_re](https://github.com/xiangrongzeng/copy_re)
