@@ -13,6 +13,8 @@ in Annual Meeting of the Association for Computational Linguistics (**ACL**) 201
 
 <img src='imgs/overview.png' width='80%' />
 
+In the 1st-phase, we **adopt bi-RNN and GCN to extract both sequential and regional dependency** word features. Given the word features, we **predict relations for each word pair** and the entities for all words. Then, in 2nd-phase, based on the predicted 1st-phase relations, we build complete relational graphs for each relation, to which we **apply GCN on each graph to integrate each relation’s information** and further consider the interaction between entities and relations.
+
 ## Requirements
 This code is implemented under **Python3** and [PyTorch](https://pytorch.org). <br>
 Following libraries are also required:
@@ -21,6 +23,11 @@ Following libraries are also required:
 
 ## Usage
 We use [spaCy](https://spacy.io/) as **pre-trained word embedding** and **dependency parser**.
+
++ GraphRel
+```
+model_graph-rel.ipynb
+```
 
 ## Resources
 + NYT Dataset
