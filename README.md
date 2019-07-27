@@ -32,7 +32,7 @@ model_graph-rel.ipynb
 ## Resources
 + NYT Dataset
 + WebNLG Dataset
-+ [This project](https://drive.google.com/drive/folders/1BvqVpGX7gfZLUXN3AxxCs3Ik618IWz-L?usp=sharing) (**still under constructing**)
++ [This project](https://drive.google.com/drive/folders/1BvqVpGX7gfZLUXN3AxxCs3Ik618IWz-L?usp=sharing)
 
 ## Citation
 ```
