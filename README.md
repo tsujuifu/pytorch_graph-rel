@@ -1,7 +1,7 @@
 # [ACL'19 (long)] GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction
 A **PyTorch** implementation of GraphRel
 
-[Project](https://tsujuifu.github.io/projs/acl19_graph-rel.html) | [Paper](https://tsujuifu.github.io/pubs/acl19_graph-rel.pdf) | [Poster](https://github.com/tsujuifu/pytorch_graph-rel/raw/master/imgs/poster.png)
+[Paper](https://tsujuifu.github.io/pubs/acl19_graph-rel.pdf) | [Poster](https://github.com/tsujuifu/pytorch_graph-rel/raw/master/imgs/poster.png) | [Slide](https://tsujuifu.github.io/slides/acl19_graph-rel.pdf)
 
 <img src='imgs/result.png' width='85%' />
 
