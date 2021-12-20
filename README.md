@@ -3,6 +3,14 @@ Thanks to everyone's interest in this project and sorry for missing the original
 It got lost in my previous lab, and I finally had time to reimplement it 😂. <br>
 I also want to appreciate @LuoXukun for his [nice reply about reproducing](https://github.com/tsujuifu/pytorch_graph-rel/issues/6#issuecomment-615836064).
 
+| [NYT](https://github.com/tsujuifu/pytorch_graph-rel/blob/master/_data/nyt.json) | Precision | Recall | F1 |
+| :-: | :-: | :-: | :-: |
+| GraphRel<sub>1p</sub> ([Paper](https://tsujuifu.github.io/pubs/acl19_graph-rel.pdf)) | 62.9 | 57.3 | 60.0 |
+| GraphRel<sub>1p</sub> ([Reimplementation](https://github.com/tsujuifu/pytorch_graph-rel/blob/master/_snapshot/nyt_1p.pt)) | 60.9 | 59.2 | 60.1 |
+| GraphRel<sub>2p</sub> ([Paper](https://tsujuifu.github.io/pubs/acl19_graph-rel.pdf)) | 63.9 | 60.0 | 61.9 |
+| GraphRel<sub>2p</sub> ([Reimplementation](https://github.com/tsujuifu/pytorch_graph-rel/blob/master/_snapshot/nyt_2p.pt)) | 63.1 | 60.2 | 61.6 |
+
+
 # [ACL'19 (Long)] GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction
 A **PyTorch** implementation of GraphRel
 
