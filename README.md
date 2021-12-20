@@ -1,3 +1,8 @@
+## [**2021/12/20 Update**] Reimplementation by Author
+Thanks to everyone's interest in this project and sorry for missing the original preprocessed data. <br>
+It got lost in my previous lab, and I finally had time to reimplement it 😂. <br>
+I also want to appreciate @LuoXukun for his [nice reply about reproducing](https://github.com/tsujuifu/pytorch_graph-rel/issues/6#issuecomment-615836064).
+
 # [ACL'19 (Long)] GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction
 A **PyTorch** implementation of GraphRel
 
@@ -16,23 +21,15 @@ in Annual Meeting of the Association for Computational Linguistics (**ACL**) 201
 In the 1st-phase, we **adopt bi-RNN and GCN to extract both sequential and regional dependency** word features. Given the word features, we **predict relations for each word pair** and the entities for all words. Then, in 2nd-phase, based on the predicted 1st-phase relations, we build complete relational graphs for each relation, to which we **apply GCN on each graph to integrate each relation’s information** and further consider the interaction between entities and relations.
 
 ## Requirements
-This code is implemented under **Python3** and [PyTorch](https://pytorch.org). <br>
-Following libraries are also required:
-+ [PyTorch](https://pytorch.org) >= 0.4
-+ [spaCy](https://spacy.io)
+This code is implemented under **Python3.8** and [PyTorch 1.7](https://pypi.org/project/torch/1.7.0). <br>
++ [tqdm](https://pypi.org/project/tqdm), [spaCy](https://spacy.io)
 
 ## Usage
-We use [spaCy](https://spacy.io/) as **pre-trained word embedding** and **dependency parser**.
-
-+ GraphRel
 ```
-model_graph-rel.ipynb
+python -m spacy download en_core_web_lg
+python main.py --arch=2p
 ```
-
-## Resources
-+ NYT Dataset
-+ WebNLG Dataset
-+ [This project](https://drive.google.com/drive/folders/1BvqVpGX7gfZLUXN3AxxCs3Ik618IWz-L?usp=sharing)
+We also provide the [trained checkpoints].
 
 ## Citation
 ```
