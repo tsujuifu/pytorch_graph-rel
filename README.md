@@ -29,7 +29,7 @@ This code is implemented under **Python3.8** and [PyTorch 1.7](https://pypi.org/
 python -m spacy download en_core_web_lg
 python main.py --arch=2p
 ```
-We also provide the [trained checkpoints].
+We also provide the [trained checkpoints](https://github.com/tsujuifu/pytorch_graph-rel/tree/master/_snapshot).
 
 ## Citation
 ```
