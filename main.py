@@ -111,7 +111,7 @@ def eval_dl(model, dl):
     
     ret['precision'] = ret['precision'][0]/ret['precision'][1] if ret['precision'][1]>0 else 0
     ret['recall'] = ret['recall'][0]/ret['recall'][1] if ret['recall'][1]>0 else 0
-    ret['f1'] = 2*ret['precision']*ret['recall'] / (ret['precision']+ret['recall'])
+    ret['f1'] = 2*ret['precision']*ret['recall']/(ret['precision']+ret['recall']) if (ret['precision']+ret['recall'])>0 else 0
     
     return ret
 
