@@ -39,7 +39,9 @@ class DS(T.utils.data.Dataset):
                 for j, t in enumerate(res):
                     if c==t:
                         dep_fw[i][j], dep_bw[j][i] = 1, 1
-            dep_fw[i], dep_bw[i] = dep_fw[i]/sum(dep_fw[i]), dep_bw[i]/sum(dep_bw[i])
+        L = len(res)
+        dep_fw[:L], dep_bw[:L] = [dep_fw[:L]/dep_fw[:L].sum(axis=1, keepdims=True), 
+                                  dep_bw[:L]/dep_bw[:L].sum(axis=1, keepdims=True)]
         
         for ne1, ne2, rel in label:
             def set_ne(ne):
