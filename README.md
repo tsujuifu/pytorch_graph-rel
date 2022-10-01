@@ -14,7 +14,7 @@ I also want to appreciate @LuoXukun for his [nice reply about reproducing](https
 # [ACL'19 (Long)] GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction
 A **PyTorch** implementation of GraphRel
 
-[Paper](https://tsujuifu.github.io/pubs/acl19_graph-rel.pdf) | [Poster](https://github.com/tsujuifu/pytorch_graph-rel/raw/master/imgs/poster.png) | [Slide](https://tsujuifu.github.io/slides/acl19_graph-rel.pdf)
+[Paper](https://tsujuifu.github.io/pubs/acl19_graph-rel.pdf) | [Slide](https://tsujuifu.github.io/slides/acl19_graph-rel.pdf) | [Poster](https://github.com/tsujuifu/pytorch_graph-rel/raw/master/imgs/poster.png)
 
 <img src='imgs/result.png' width='85%' />
 
