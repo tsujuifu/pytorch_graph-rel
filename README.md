@@ -10,7 +10,6 @@ I also want to appreciate @LuoXukun for his [nice reply about reproducing](https
 | GraphRel<sub>2p</sub> ([Paper](https://tsujuifu.github.io/pubs/acl19_graph-rel.pdf)) | 63.9 | 60.0 | 61.9 |
 | GraphRel<sub>2p</sub> ([Reimplementation](https://github.com/tsujuifu/pytorch_graph-rel/blob/master/_snapshot/nyt_2p.pt)) | 63.1 | 60.2 | 61.6 |
 
-
 # [ACL'19 (Long)] GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction
 A **PyTorch** implementation of GraphRel
 
