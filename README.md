@@ -21,7 +21,7 @@ A **PyTorch** implementation of GraphRel
 ## Overview
 GraphRel is an implementation of <br> 
 "[GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction](https://tsujuifu.github.io/pubs/acl19_graph-rel.pdf)" <br>
-[Tsu-Jui Fu](http://tsujuifu.github.io/), [Peng-Hsuan Li](http://jacobvsdanniel.github.io/), and [Wei-Yun Ma](http://www.iis.sinica.edu.tw/pages/ma/) <br>
+[Tsu-Jui Fu](https://scholar.google.com/citations?user=mwFy9kkAAAAJ), [Peng-Hsuan Li](https://scholar.google.com/citations?user=sqYoxbsAAAAJ), and [Wei-Yun Ma](https://scholar.google.com/citations?user=AHG3DncAAAAJ) <br>
 in Annual Meeting of the Association for Computational Linguistics (**ACL**) 2019 (Long)
 
 <img src='imgs/overview.png' width='80%' />
